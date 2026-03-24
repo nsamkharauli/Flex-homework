@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: Poppins Bold;
+}
+
+
+.background{
+  background-image: url(./Flex-images/Frame.png);
+  background-repeat: no-repeat;
+  background-size:cover ;
+  background-position: center;
+  height: 750px;
+  display: flex;
+  align-items: center;
+  padding: 0px 50px;
+  gap: 60px;
+}
+
+/* .background{
+  background-image: url(./Flex-images/Frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-position: center;
+  display: flex;
+  justify-content: space-around; 
+  
+} */
+
+/* .content{
+  max-width: 500px;
+  margin-left: 50px;
+  margin-top: 10px;
+  border: 1px solid wheat;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+} */
+
+/* .buttons{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+  
+} */
+
+/* h1{
+  color: white;
+  padding: 7px;
+  margin-bottom: 20px;
+} */
+
+/* h6{
+  color: white;
+  margin-top: 10px;
+} */
+/* p{
+  color: white;
+  border: 2px white;
+  font-size: 11px;
+  display: inline-block;
+} */
+
+
+/* .text_buttons{
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  align-self: center;
+  width: 190px;
+} */
+
+/* span{
+  color: white;
+} */
+
+
+
+
+/* .fish img{
+  width: 615px;
+} */
