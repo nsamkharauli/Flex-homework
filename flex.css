@@ -5,10 +5,10 @@
   list-style-type: none;
   box-sizing: border-box;
 }
-body{
-  font-family: Poppins Bold;
-}
 
+body{
+  font-family: sans-serif;
+}
 
 .background{
   background-image: url(./Flex-images/Frame.png);
@@ -22,75 +22,101 @@ body{
   gap: 60px;
 }
 
-/* .background{
-  background-image: url(./Flex-images/Frame.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100vh;
+.content{
+  max-width: 400px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-position: center;
-  display: flex;
-  justify-content: space-around; 
-  
-} */
+  flex-direction: column;
+  margin-left: auto;
+  color: white;
+}
 
-/* .content{
-  max-width: 500px;
-  margin-left: 50px;
-  margin-top: 10px;
-  border: 1px solid wheat;
-  height: 500px;
+.text{
   display: flex;
-  justify-content: center;
-} */
+  flex-direction: column;
+  gap: 23px;
+}
 
-/* .buttons{
+.buttons{
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-  margin-top: 30px;
-  
-} */
+  gap: 15px;
+  justify-content: space-evenly;
+}
 
-/* h1{
-  color: white;
-  padding: 7px;
-  margin-bottom: 20px;
-} */
-
-/* h6{
-  color: white;
-  margin-top: 10px;
-} */
-/* p{
-  color: white;
-  border: 2px white;
-  font-size: 11px;
-  display: inline-block;
-} */
-
-
-/* .text_buttons{
-  border: 2px solid white;
-  border-radius: 5px;
-  background-color: transparent;
-  padding: 10px;
+.text_buttons{
   display: flex;
-  gap: 20px;
-  align-self: center;
-  width: 190px;
-} */
-
-/* span{
+  gap: 25px;
+  width: 48%;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5px ;
+  padding: 16px 17px ;
   color: white;
-} */
+  cursor: pointer;
+  
+}
+.right_button{
+  width: 44%;
+}
+
+
+.buy{
+  background: linear-gradient(
+to right,
+  rgba(255, 255, 0, 0.2),
+  rgb(255, 191, 0),
+  rgba(255, 255, 0, 0.3)
+  );
+  /* border-style:hidden; */
+  border: 0.1px solid white;
+}
+
+.text_buttons:hover{
+  transform: scale(1.05)
+}
+
+h1{
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.text p {
+  color: rgba(255, 255, 255, 0.805);
+  font-size: 14px;
+  line-height: 1.5;
+
+}
+
+h5{
+  color: rgba(255, 255, 255, 0.805);
+  margin-bottom: -8px;
+  font-size: 13px;
+  text-indent: 3px;
+}
+h6{
+  font-size: 14px;
+  text-indent: 6px;
+  margin-bottom: 5px;
+  margin-top: -8px;
+ 
+}
+
+.buttons p{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+.fish{
+  margin-left: auto;
+}
+.fish img {
+  width: 625px;
+}
 
 
 
 
-/* .fish img{
-  width: 615px;
-} */
+
+
+
